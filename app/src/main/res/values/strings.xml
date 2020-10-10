@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">IMC Calculator</string>
+    <string name="tvMadeby">made by Victoria&amp;Luiz</string>
+    <string name="tvPeso">Peso (em Kg):</string>
+    <string name="tvAltura">Altura (em metros):</string>
+    <string name="btnCalcular">Calcular</string>
+    <string name="tvIMC">Seu IMC é: </string>
+    <string name="tvClassificacao">Classificação:</string>
+    <string name="btnVoltar">Novo Cálculo</string>
+</resources>

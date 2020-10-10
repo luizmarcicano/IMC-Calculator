@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".ResultActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_margin="50dp"
+        android:src="@drawable/nro" />
+
+    <TextView
+        android:id="@+id/tvIMC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvIMC"
+        android:textColor="@color/colorText"
+        android:textSize="40sp"
+        android:fontFamily="@font/roboto_light"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        />
+
+    <TextView
+        android:id="@+id/txt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvClassificacao"
+        android:textColor="@color/colorText"
+        android:textSize="24sp"
+        android:fontFamily="@font/roboto"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/txtClassificacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorText"
+        android:textSize="18sp"
+        android:fontFamily="@font/roboto"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="50dp"/>
+
+    <Button
+        android:id="@+id/btnVoltar"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/colorAccent"
+        android:text="@string/btnVoltar"
+        android:fontFamily="@font/roboto_medium"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="18sp"
+        android:padding="10dp"/>
+
+</LinearLayout>
