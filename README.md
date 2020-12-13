@@ -5,7 +5,7 @@
 IMC Calculator for Cel.lep + MadCode + Estação Hack from Facebook's short Android course.
 
 ## Team :adult: :curly_haired_man:
-- Luis Marcicano
+- Luiz Marcicano
   - [Github](https://github.com/luizmarcicano)
   - [Linkedin](https://www.linkedin.com/in/luiz-guilherme-lima-marcicano-2889a2170/)
 - Victoria Prieto
